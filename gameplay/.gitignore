@@ -1,0 +1,7 @@
+
+/node_modules
+*.lock
+/yarn-error.log
+build/
+# Temporary files created by R markdown
+/README.MD

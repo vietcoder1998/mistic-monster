@@ -1,0 +1,61 @@
+/**
+*   
+*
+* @define will be de  for the constructor
+*
+*
+*
+*/
+
+@define;
+mmc_version 1 - 3; // version inside 1 and 3
+
+@define;
+contract_name = "Make_Storage"; // define contract name
+
+@define;
+dev_gas = 1; // define for gas for developer (with one contract the dev that create contract will receive dev_gas, max is 100
+
+@define;
+dev_address = "0x184783549587234602dyf"; // the name of address that dev will 
+
+@define;
+gas_limit = 100000; // define gas_limit for deploy contract
+
+@define 
+game_name = 192384 // define game_name for game_name
+
+
+const x: int256b = 125;
+global const y: 
+
+@constructor;
+function make_storage_contract(bytes) {
+    return ;
+}
+
+@transaction;
+public function create_transaction() { 
+    const n: int256b = 5;
+    const total: int256b = ab + n;
+    return total;
+};
+
+
+/**
+* @param address - string
+*
+/
+
+@view;
+private function view_contract(address: string8bs) {
+    // require that condition will compare, it not break the function return msg
+    require();
+};
+
+/** 
+*
+*   When compile, this contract will be name default is Make_Storage
+*
+*
+*/
