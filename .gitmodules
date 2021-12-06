@@ -1,0 +1,3 @@
+[submodule "mmc-core"]
+	path = mmc-core
+	url = https://github.com/vietcoder1998/mmc-core.git
