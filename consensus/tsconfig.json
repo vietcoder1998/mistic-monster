@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "module": "esnext",
+    "lib": [
+      "es6",
+      "DOM"
+    ],
+    "allowJs": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "noImplicitReturns": true,
+    "declaration": true,
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "build",
+    "lib",
+    "test"
+  ],
+  "emitDecoratorMetadata": true
+}

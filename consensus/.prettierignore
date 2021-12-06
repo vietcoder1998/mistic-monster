@@ -1,0 +1,5 @@
+#ignore artifacts
+build
+.vscode
+*-lock.json
+package.json

@@ -1,0 +1,37 @@
+{
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": ["*.ts", ".jsx", ".tsx"]
+            }
+        }
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "root": true,
+    "rules": {
+        // "no-loops/no-loops": 0, // 2 means throw an ERROR
+        "no-console": 1,
+        "prettier/prettier": 2,
+        "no-unused-vars": "off",
+        "no-shadow": "off",
+        "no-useless-escape": "off",
+        "react/display-name": "off",
+        "eol-last": "off"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "no-loops",
+        "prettier",
+        "eslint-plugin-prettier"
+    ],
+    "extends": ["plugin:react/recommended"]
+}
